@@ -1,7 +1,7 @@
 # Text clusterization overview
 
 This is more of a cheat sheet, than a serious project with high goals.
-Data is Reddit posts for one year with #wot hashtag [posts_Reddit_wot_en.csv](https://github.com/).
+Data is Reddit posts for one year with #wot hashtag [posts_Reddit_wot_en.csv](https://github.com/bluella/Text-clusterization-overview/blob/master/datasets/posts_Reddit_wot_en.csv).
 Text vectorization was done with four main methods:
 [BoW](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html),
 [TF-IDF](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html),
@@ -42,12 +42,16 @@ PCA visualization seems to comply more with real outcome than MDS.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/bluella/Text-clusterization-overview/blob/master/LICENSE.md) file for details
 
 ## Acknowledgments
 
 Heavy loads of code were taken from the following resources:
-[Great word2vec tutorial](https://www.kaggle.com/pierremegret/gensim-word2vec-tutorial),
-[BoW clusterization](http://brandonrose.org/clustering),
-[Doc2vec clusterization](https://medium.com/@ermolushka/text-clusterization-using-python-and-doc2vec-8c499668fa61),
-[Preprocessing](https://medium.com/@datamonsters/text-preprocessing-in-python-steps-tools-and-examples-bf025f872908)
+
+- [Great word2vec tutorial](https://www.kaggle.com/pierremegret/gensim-word2vec-tutorial)
+
+- [BoW clusterization](http://brandonrose.org/clustering)
+
+- [Doc2vec clusterization](https://medium.com/@ermolushka/text-clusterization-using-python-and-doc2vec-8c499668fa61)
+
+- [Preprocessing](https://medium.com/@datamonsters/text-preprocessing-in-python-steps-tools-and-examples-bf025f872908)
