@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "./tco_env/bin/python3.7",
+    "python.globalModuleInstallation": true,
+    "python.linting.enabled": true,
+    "files.exclude": {
+        "*_env": true,
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true
+    }
+}

@@ -1,0 +1,6 @@
+*.py[cod]     # Will match .pyc, .pyo and .pyd files.
+__pycache__/  # Exclude the whole folder
+/tco_env
+.DS_store
+**.pyc
+/posts**
