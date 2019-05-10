@@ -17,10 +17,10 @@ Visualization is performed via:
 ## Install
 
 ```bash
-git clone project
-cd Text clusterization overview
+git clone git@github.com:bluella/Text-clusterization-overview.git
+cd Text-clusterization-overview
 virtualenv -p /usr/bin/python3.7 tco_env
-source /tco_env/bin/activate
+source ./tco_env/bin/activate
 pip install -r requirements.txt
 ```
 
